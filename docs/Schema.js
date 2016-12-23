@@ -8,17 +8,21 @@ users
 personalExercise
   *uniqueID(PK)
   *username
-  *exercise
+  *Exercise
 
 exercises
-  *exercise
+  *Exercise(PK)
+  *Equipment
+  *Level
+  *Guide
+  *Images
 
 muscles
-  *muscles
+  *Muscle
 
 targetMuscles
-  *uniqueID
-  *exercise
-  *muscles
+  *ID
+  *Exercise
+  *Muscles
 
 */
