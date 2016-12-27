@@ -1,0 +1,3 @@
+rootProject.name = 'mygym'
+
+include ':app'
