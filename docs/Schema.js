@@ -1,20 +1,26 @@
 /*
-users
-  *username(PK)
-  *password
-  *first name
-  *last name
+User
+  *UserID(PK)
+  *Username
+  *Password
+  *FirstName
+  *LastName
 
-personalExercise
-  *username
+PersonalExercises
+  *UserID
+  *ExerciseID
+
+Exercise
+  *ExerciseID(PK)
   *Exercise
+  *MuscleID
+  *Equipment
+  *Level
+  *Guide
+  *ImageURL
 
-exercises
-  *exercise(PK)
-  *muscle
-  *equipment
-  *level
-  *guide
-  *images
+Muscle
+  *MuscleID
+  *Muscle
 
 */
